@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dp-fl-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 700px;
+    background-color: #fbfafa;
+    border-radius: 7px;
+    border: 2px dashed rgb(187, 150, 150);
+    position: relative;
+    left: 50%;
+    margin-top: 10%;
+    transform: translateX(-50%);
+}
+.pd-6 {
+    padding: 6px;
+}
+.mg-bt-12 {
+    margin-bottom: 12px;
+}
+
+.style-btn {
+    padding: 6px 12px;
+}
+    
+.text-align-center {
+    text-align: center;
+}
+.w-50 {
+    width: 50%;
+}
